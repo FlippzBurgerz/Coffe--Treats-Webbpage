@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" class="c&t">
+
+<head>
+    <title>Coffeé & Treats</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <script src="../js/main.js" type="module"></script>
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <h1>Coffeé & Treats</h1>
+            <h2>Stay a while & listen</h2>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="/index.html">About us</a></li>
+                <li><a href="treats.html">Treats</a></li>
+                <li><a href="news.html">News letter</a></li>
+                <li><a href="search.html">Recepies</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <section>
+                <h2>Registrera dig för vårat nyhetsbrev</h2>
+                <form>
+                    <h3>Fyll i dina uppgifter</h3>
+                    <p>
+                        <label for="Namn">Namn*: </label>
+                        <input type="text" name="Namn" id="Namn" required />
+                    </p>
+                    <p>
+                        <label for="Email">Email*: </label>
+                        <input type="email" name="Email" id="Email" required pattern="\w+@\w+.+\w" />
+                    </p>
+                    <p>
+                        <label for="Mobilnummer">Mobilnummer: </label>
+                        <input type="tel" name="Mobilnummer" id="Mobilnummer" />
+                    </p>
+                </form>
+                <p>
+                    <input type="submit" value="Submit" />
+                </p>
+                <hr>
+            </section>
+        </main>
+
+    </div>
+
+    <footer>
+        <p>Lorem Ipsum C&T, 2022. Stay a while and listen – no copyright or rights reserved.
+        Text by <a href="">C&T</a></p>
+    </footer>
+</body>
+
+</html>

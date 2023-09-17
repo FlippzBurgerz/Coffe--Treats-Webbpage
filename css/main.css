@@ -1,0 +1,627 @@
+@font-face {
+    font-family: 'cormorantgaramond';
+    src: url(../fonts/cormorantGaramond/CormorantGaramond-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'GrapeNuts';
+    src: url(../fonts/GrapeNuts/GrapeNuts-Regular.ttf);
+}
+
+
+
+html {
+    font-size: 105%;
+}
+
+body {
+    font-family: "cormorantgaramond", Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.375;
+    color: #ac845f;
+}
+.imgTitle{
+    font-family: 'GrapeNuts';
+    text-align: center;
+}
+h1,
+h2,
+h3,
+nav ul,
+#copyright,
+table th,
+#heading {
+    font-family: "cormorantgaramond", Georgia, serif;
+    font-weight: 900;
+    letter-spacing: 0.075em;
+    text-decoration: underline;
+    text-shadow: 2px 1px black;
+
+}
+
+h1 {
+    font-size: 2.25rem;
+    text-transform: uppercase;
+    color: rgb(236, 242, 247);
+    border: 5px solid rgb(236, 242, 247);
+    text-decoration: underline;
+}
+
+h2 {
+    font-size: 2rem;
+    line-height: 1.1;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+p {
+    text-align: justify;
+    margin: 0 0 2rem 0;
+    font-size: 1rem;
+}
+
+div>header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 10rem;
+    padding-bottom: 8rem;
+}
+
+body div header h1 {
+    margin-top: 12rem;
+    margin-bottom: -1.3rem;
+    background-color: rgba(0, 0, 0, 0.281);
+    font-size: 3.5rem;
+}
+
+body div header h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+body {
+    font-family: "cormorant garamond", Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.375;
+    color: #f4f7f8;
+    background-image: url("../images/cafe_background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+main {
+    background-image: url("../images/Wallpaper-Kemra-BlackWood-1-1.png");
+    background-size: auto 100%;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    margin: 0 auto;
+    max-width: 65rem;
+    border: 5px solid rgba(0, 0, 0, 0.555);
+}
+
+main h2 {
+    font-family: "GrapeNuts";
+    text-decoration: none;
+
+}
+
+main section {
+    background-color: rgba(44, 27, 8, 0.438);
+
+}
+
+main,
+footer,
+#copyright {
+    margin: 0 auto;
+    max-width: 74rem;
+}
+
+
+/*Nav*/
+nav {
+    font-size: 1.2rem;
+    max-width: 88rem;
+    margin: 0 auto;
+}
+
+nav ul {
+    text-transform: uppercase;
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul li a {
+    color: rgb(248, 248, 255);
+    text-shadow: 2px 1px black;
+}
+
+nav a:hover,
+nav a:focus {
+    color: rgb(245, 45, 30);
+    font-weight: bold;
+    letter-spacing: 0.15rem;
+}
+
+/*Main*/
+img {
+    height: 100%;
+    width: 100%;
+    justify-self: unset;
+
+}
+
+
+section>header p {
+    font-style: italic;
+    text-align: center;
+}
+
+section ul {
+    list-style: circle;
+    list-style-position: inside;
+    line-height: 2;
+}
+
+
+
+main section fieldset {
+    display: flex;
+    background-color: #ac845f39;
+}
+
+
+
+.sArea {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body div main section article a div li {
+    color: #f4f7f8;
+    list-style-type: none;
+
+}
+
+body div main section article a div li p {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+body div main section section div img {
+    display: block;
+    max-width: 70%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    border: 1px solid #ddd;
+}
+
+body div main section img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  max-width: 50%;
+}
+
+
+
+
+
+/*Footer*/
+footer {
+    display: flex;
+    text-shadow: 2px 1px black;
+}
+
+footer p {
+    font-size: 0.9rem;
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+#copyright {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    color: #000;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+/*Tabel*/
+
+tbody tr:nth-of-type(odd) {
+    background-color: rgba(145, 100, 34, 0.411);
+}
+
+/*Form*/
+
+input,
+select,
+textarea {
+    border: 1px solid #dfdbdb;
+    color: #212931;
+    font-size: 1.3rem;
+}
+
+input[type="submit"] {
+    background-color: #ac845f70;
+    background-size: auto 100%;
+    color: #fff;
+    border: 5px solid rgba(0, 0, 0, 0.514);
+    padding: 0.5rem 0.8rem;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    outline: none;
+    background-color: rgba(98, 162, 204, 0.877);
+}
+
+
+
+@media screen and (max-width:775px) {
+
+    body div main section input {
+        width: 13rem;
+        text-align: center;
+    }
+
+    .sInput {
+        max-width: 100%;
+    }
+
+
+
+    main {
+        width: 100%;
+        justify-content: center;
+    }
+
+
+    main section article h2 {
+        display: block;
+        font-size: 2rem;
+        text-decoration: dotted underline;
+        justify-content: center;
+    }
+
+    main section h2 {
+        text-decoration: dotted underline;
+    }
+
+
+    main section article img {
+        max-width: 500px;
+        max-height: 300px;
+        margin: 0rem 0rem 2rem;
+    }
+
+    body div main section article p {
+        width: 100%;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+        font-size: 1.2rem;
+    }
+
+    main section article p {
+        max-width: 100%;
+        background-color: #ac845f39;
+        background-size: cover;
+        text-align: center;
+
+    }
+
+
+    body div header h1 {
+        font-size: 2rem;
+    }
+
+
+    h1 {
+        text-shadow: 2px 1px black;
+    }
+
+    h2 {
+        text-align: center;
+        padding: 2rem 2rem 2rem;
+    }
+
+    div>header {
+        padding: 2rem;
+        text-align: center;
+    }
+
+    nav {
+        line-height: 2rem;
+        padding-bottom: 1rem;
+    }
+
+    nav ul {
+        flex-direction: column;
+        padding: 8rem 2rem 1em 2rem;
+    }
+
+    nav ul li {
+        text-align: center;
+        padding: 0;
+    }
+
+    main section {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+        padding-right: 5%;
+
+    }
+
+    body div main section article {
+        text-align: center;
+    }
+
+
+
+    main {
+        width: 100%;
+    }
+
+    /*Footer*/
+
+    footer {
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    /*Table*/
+    table,
+    thead,
+    tbody,
+    th,
+    td,
+    tr {
+        display: block;
+    }
+
+    thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+
+    table {
+        background-color: #ac845f39;
+    }
+
+    td {
+        position: relative;
+        padding-left: 50%;
+        font-size: 0.9rem;
+        padding-bottom: 0.5rem;
+    }
+
+    td:before {
+        position: absolute;
+        top: 6px;
+        left: 6px;
+
+        font-family: "cormorantgaramond", Helvetica, sans-serif;
+        font-weight: 900;
+        letter-spacing: 0.075rem;
+    }
+
+
+    /*Form*/
+    label {
+        width: 100%;
+        text-align: left;
+        display: block;
+    }
+
+    textarea {
+        width: 15rem;
+    }
+
+    input[type="submit"] {
+        margin-bottom: 1rem;
+    }
+
+  /*  body div main section img{
+        margin-left: auto;
+        margin-right: auto;
+        border: 2px solid #ddd;
+        width: 100%;
+  border-radius: 50%;
+  padding: 5px;
+  width: 150px;
+    }*/
+
+    body div main section img {
+        display: block;
+        border: 1px solid rgb(8, 8, 8);
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 50%;
+        border: 2px solid #ddd;
+        width: 100%;
+  border-radius: 50%;
+  max-width: 50%;
+        object-fit: cover;
+    }
+
+
+
+
+}
+
+@media screen and (min-width: 775px) {
+
+
+    main section article img {
+        display: block;
+        border-radius: 50%;
+        max-width: 30%;
+        float: right;
+        margin: 0rem 3rem 0rem;
+    }
+    
+    .myImage{
+        display: block;
+        border: 1px solid rgb(8, 8, 8);
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 40%;
+        border: 2px solid #ddd;
+        object-fit: cover;
+        margin-top: 1rem;
+    }
+
+    main section article p {
+        display: flex;
+        max-width: 28rem;
+        background-color: #ac845f39;
+        text-align: center;
+        flex: 1;
+    }
+
+    h1 {
+        padding: 1rem 1.7rem;
+        margin-bottom: 2rem;
+        text-shadow: 2px 1px black;
+
+    }
+
+    h2 {
+        font-size: 4rem;
+    }
+
+    h3 {
+        font-size: 1.7rem;
+    }
+
+    div>header {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        height: 10rem;
+        padding-bottom: 8rem;
+    }
+
+    /*Nav*/
+
+    nav {
+        height: 4rem;
+        line-height: 4rem;
+        margin: -4rem auto 0;
+        padding: 0 2rem 0 0;
+    }
+
+    nav ul {
+        flex-direction: row;
+        justify-content: center;
+
+    }
+
+    nav ul li a {
+        padding: 0 1rem;
+        text-align: center;
+    }
+
+    main section article h2 {
+        display: block;
+        font-size: 3rem;
+        text-decoration: dotted underline;
+        justify-content: right;
+        text-align: left;
+        margin-left: auto;
+        margin-right: 20%;
+    }
+
+    main section h2 {
+        text-decoration: dotted underline;
+    }
+
+    main section {
+        padding: 6rem 4rem 4rem 4rem;
+    }
+
+    img {
+        display: block;
+        margin: 0 auto 2rem;
+        width: auto;
+        border: 2px solid rgba(0, 0, 0, 0.514);
+    }
+
+    /*Footer*/
+
+    footer {
+        flex-direction: column;
+        justify-content: center;
+        padding: 2rem 4rem;
+        font-style: normal;
+    }
+
+    /*Form*/
+
+    form {
+        width: 30rem;
+        margin: 1rem auto 0;
+    }
+
+    label {
+        width: 8rem;
+        text-align: left;
+        margin-left: 0.6rem;
+        font-size: 1.2rem;
+    }
+
+
+    /*Table*/
+
+    table {
+        object-position: right;
+        margin-right: 0px;
+        width: 50%;
+        margin-top: 8rem;
+        margin-bottom: 8rem;
+    }
+
+    th {
+        color: #ffffff;
+        font-weight: bold;
+        font-size: 1rem;
+        padding: 0.75rem;
+        padding-top: 0;
+        text-align: left;
+        text-transform: uppercase;
+    }
+
+    table {
+        background-color: #ac845f39;
+    }
+
+
+    td {
+        padding: 0.3rem;
+    }
+
+    td.right {
+        text-align: right;
+    }
+
+}
